@@ -150,7 +150,7 @@ while running:
         print("All cheese collected!")
         print(f"Replans due to noise: {mouse.replans_due_to_noise}")
         downloads_path = str(Path.home() / "Downloads")
-        pygame.image.save(screen, os.path.join(downloads_path, f"level{level_index+1}_{mode}.png"))
+        pygame.image.save(screen, os.path.join(downloads_path, f"level{level_index+1}_{mode}_{'noisy' if is_noisy else 'clean'}.png"))
         running = False
 
 
