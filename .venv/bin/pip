@@ -1,4 +1,4 @@
-#!/Users/stephaniechung/Documents/DIA_mouse_cheese_maze/.venv/bin/python
+#!/Users/stephaniechung/Documents/COMP3004-20491960-Mouse-Cheese-Maze/.venv/bin/python3.13
 # -*- coding: utf-8 -*-
 import re
 import sys
